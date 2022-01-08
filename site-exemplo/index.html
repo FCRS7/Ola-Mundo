@@ -142,7 +142,25 @@
             <P>no application o navegador é direcionado e pergunta se eu quero fazer o download.</P>
     </ul>
 
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture> 
+        <source media="(max-width: 750px )" srcset="imagens dinamicas/imagem300.png" type='imagens/png'>
+        <source media="(max-width: 1050px )" srcset="imagens dinamicas/imagem750.png" type="imagens/png">
+        <img src='imagens dinamicas/imagem1000.png' alt='imagem Flexivel'>
+    </picture>
 
+    <h1>Reproduzindo Áudio</h1>
+    <p>vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src='midias/12 Grams - TrackTribe.mp3'controls autoplay></audio>
+    <br>
+    <audio src='midias/Light Expanse - Unicorn Heads.mp3'controls autoplay></audio>
+    <br>
+    <audio preloand='metadata' autoplay controls>
+    <source src="(midias/Light Expanse - Unicorn Heads.mp3)" type="audio/mpeg">
+    <source src="midias/12 Grams - TrackTribe.mp3" type="audio/ogg">
+    <source src="midias/12 Grams - TrackTribe.mp3" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir áudio <a href="midias/Light Expanse - Unicorn Heads.mp3">Click aqui para baixar o arquivo MP3</a></p>
 
 </body>
 </html>
